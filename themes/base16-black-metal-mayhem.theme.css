@@ -22,7 +22,7 @@
     --base0F: #444444; /* Magenta */
 }
 
-.theme-dark {
+.theme-light, .theme-dark {
     --background-primary: var(--base00);
     --background-secondary: var(--base01);
     --background-secondary-alt: var(--base01);
