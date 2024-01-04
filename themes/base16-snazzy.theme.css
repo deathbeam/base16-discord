@@ -20,17 +20,6 @@
     --base0D: #57c7ff; /* Blue */
     --base0E: #ff6ac1; /* Purple */
     --base0F: #b2643c; /* Magenta */
-
-    --radius-xs: 0px;
-    --radius-sm: var(--radius-xs);
-    --radius-md: var(--radius-xs);
-    --radius-lg: var(--radius-xs);
-    --radius-xl: var(--radius-xs);
-    --radius-xxl: var(--radius-xs);
-    --font-primary: 'Terminus', normal;
-    --font-display: var(--font-primary);
-    --font-headline: var(--font-primary);
-    --font-code: var(--font-primary);
 }
 
 .theme-dark {
