@@ -28,6 +28,7 @@
 }
 
 .theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
     --background-primary: var(--base00);
     --background-secondary: var(--base01);
     --background-secondary-alt: var(--base01);
