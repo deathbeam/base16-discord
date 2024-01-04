@@ -1,0 +1,57 @@
+/**
+* @name Helios
+* @author Alex Meyer (https://github.com/reyemxela)
+**/
+
+:root {
+    --base00: #1d2021; /* Black */
+    --base01: #383c3e; /* Bright Black */
+    --base02: #53585b; /* Grey */
+    --base03: #6f7579; /* Brighter Grey */
+    --base04: #cdcdcd; /* Bright Grey */
+    --base05: #d5d5d5; /* White */
+    --base06: #dddddd; /* Brighter White */
+    --base07: #e5e5e5; /* Bright White */
+    --base08: #d72638; /* Red */
+    --base09: #eb8413; /* Orange */
+    --base0A: #f19d1a; /* Yellow */
+    --base0B: #88b92d; /* Green */
+    --base0C: #1ba595; /* Cyan */
+    --base0D: #1e8bac; /* Blue */
+    --base0E: #be4264; /* Purple */
+    --base0F: #c85e0d; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

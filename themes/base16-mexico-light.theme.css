@@ -1,0 +1,57 @@
+/**
+* @name Mexico Light
+* @author Sheldon Johnson
+**/
+
+:root {
+    --base00: #f8f8f8; /* Black */
+    --base01: #e8e8e8; /* Bright Black */
+    --base02: #d8d8d8; /* Grey */
+    --base03: #b8b8b8; /* Brighter Grey */
+    --base04: #585858; /* Bright Grey */
+    --base05: #383838; /* White */
+    --base06: #282828; /* Brighter White */
+    --base07: #181818; /* Bright White */
+    --base08: #ab4642; /* Red */
+    --base09: #dc9656; /* Orange */
+    --base0A: #f79a0e; /* Yellow */
+    --base0B: #538947; /* Green */
+    --base0C: #4b8093; /* Cyan */
+    --base0D: #7cafc2; /* Blue */
+    --base0E: #96609e; /* Purple */
+    --base0F: #a16946; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

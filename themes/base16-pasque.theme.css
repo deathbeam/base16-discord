@@ -1,0 +1,57 @@
+/**
+* @name Pasque
+* @author Gabriel Fontes (https://github.com/Misterio77)
+**/
+
+:root {
+    --base00: #271c3a; /* Black */
+    --base01: #100323; /* Bright Black */
+    --base02: #3e2d5c; /* Grey */
+    --base03: #5d5766; /* Brighter Grey */
+    --base04: #bebcbf; /* Bright Grey */
+    --base05: #dedcdf; /* White */
+    --base06: #edeaef; /* Brighter White */
+    --base07: #bbaadd; /* Bright White */
+    --base08: #a92258; /* Red */
+    --base09: #918889; /* Orange */
+    --base0A: #804ead; /* Yellow */
+    --base0B: #c6914b; /* Green */
+    --base0C: #7263aa; /* Cyan */
+    --base0D: #8e7dc6; /* Blue */
+    --base0E: #953b9d; /* Purple */
+    --base0F: #59325c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

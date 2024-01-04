@@ -1,0 +1,57 @@
+/**
+* @name XCode Dusk
+* @author Elsa Gonsiorowski (https://github.com/gonsie)
+**/
+
+:root {
+    --base00: #282b35; /* Black */
+    --base01: #3d4048; /* Bright Black */
+    --base02: #53555d; /* Grey */
+    --base03: #686a71; /* Brighter Grey */
+    --base04: #7e8086; /* Bright Grey */
+    --base05: #939599; /* White */
+    --base06: #a9aaae; /* Brighter White */
+    --base07: #bebfc2; /* Bright White */
+    --base08: #b21889; /* Red */
+    --base09: #786dc5; /* Orange */
+    --base0A: #438288; /* Yellow */
+    --base0B: #df0002; /* Green */
+    --base0C: #00a0be; /* Cyan */
+    --base0D: #790ead; /* Blue */
+    --base0E: #b21889; /* Purple */
+    --base0F: #c77c48; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

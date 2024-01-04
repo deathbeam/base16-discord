@@ -1,0 +1,57 @@
+/**
+* @name Primer Dark Dimmed
+* @author Jimmy Lin
+**/
+
+:root {
+    --base00: #1c2128; /* Black */
+    --base01: #373e47; /* Bright Black */
+    --base02: #444c56; /* Grey */
+    --base03: #545d68; /* Brighter Grey */
+    --base04: #768390; /* Bright Grey */
+    --base05: #909dab; /* White */
+    --base06: #adbac7; /* Brighter White */
+    --base07: #cdd9e5; /* Bright White */
+    --base08: #f47067; /* Red */
+    --base09: #e0823d; /* Orange */
+    --base0A: #c69026; /* Yellow */
+    --base0B: #57ab5a; /* Green */
+    --base0C: #96d0ff; /* Cyan */
+    --base0D: #539bf5; /* Blue */
+    --base0E: #e275ad; /* Purple */
+    --base0F: #ae5622; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

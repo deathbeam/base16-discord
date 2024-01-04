@@ -1,0 +1,57 @@
+/**
+* @name Eva
+* @author kjakapat (https://github.com/kjakapat)
+**/
+
+:root {
+    --base00: #2a3b4d; /* Black */
+    --base01: #3d566f; /* Bright Black */
+    --base02: #4b6988; /* Grey */
+    --base03: #55799c; /* Brighter Grey */
+    --base04: #7e90a3; /* Bright Grey */
+    --base05: #9fa2a6; /* White */
+    --base06: #d6d7d9; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #c4676c; /* Red */
+    --base09: #ff9966; /* Orange */
+    --base0A: #ffff66; /* Yellow */
+    --base0B: #66ff66; /* Green */
+    --base0C: #4b8f77; /* Cyan */
+    --base0D: #15f4ee; /* Blue */
+    --base0E: #9c6cd3; /* Purple */
+    --base0F: #bb64a9; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

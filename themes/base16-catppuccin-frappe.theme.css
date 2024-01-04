@@ -1,0 +1,57 @@
+/**
+* @name Catppuccin Frappe
+* @author https://github.com/catppuccin/catppuccin
+**/
+
+:root {
+    --base00: #303446; /* Black */
+    --base01: #292c3c; /* Bright Black */
+    --base02: #414559; /* Grey */
+    --base03: #51576d; /* Brighter Grey */
+    --base04: #626880; /* Bright Grey */
+    --base05: #c6d0f5; /* White */
+    --base06: #f2d5cf; /* Brighter White */
+    --base07: #babbf1; /* Bright White */
+    --base08: #e78284; /* Red */
+    --base09: #ef9f76; /* Orange */
+    --base0A: #e5c890; /* Yellow */
+    --base0B: #a6d189; /* Green */
+    --base0C: #81c8be; /* Cyan */
+    --base0D: #8caaee; /* Blue */
+    --base0E: #ca9ee6; /* Purple */
+    --base0F: #eebebe; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

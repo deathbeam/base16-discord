@@ -1,0 +1,57 @@
+/**
+* @name tarot
+* @author ed (https://codeberg.org/ed)
+**/
+
+:root {
+    --base00: #0e091d; /* Black */
+    --base01: #2a153c; /* Bright Black */
+    --base02: #4b2054; /* Grey */
+    --base03: #74316b; /* Brighter Grey */
+    --base04: #8c406f; /* Bright Grey */
+    --base05: #aa556f; /* White */
+    --base06: #c4686d; /* Brighter White */
+    --base07: #dc8f7c; /* Bright White */
+    --base08: #c53253; /* Red */
+    --base09: #ea4d60; /* Orange */
+    --base0A: #ff6565; /* Yellow */
+    --base0B: #a68e5a; /* Green */
+    --base0C: #8c9785; /* Cyan */
+    --base0D: #6e6080; /* Blue */
+    --base0E: #a45782; /* Purple */
+    --base0F: #984d51; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

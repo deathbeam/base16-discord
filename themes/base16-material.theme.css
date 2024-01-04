@@ -1,0 +1,57 @@
+/**
+* @name Material
+* @author Nate Peterson
+**/
+
+:root {
+    --base00: #263238; /* Black */
+    --base01: #2e3c43; /* Bright Black */
+    --base02: #314549; /* Grey */
+    --base03: #546e7a; /* Brighter Grey */
+    --base04: #b2ccd6; /* Bright Grey */
+    --base05: #eeffff; /* White */
+    --base06: #eeffff; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #f07178; /* Red */
+    --base09: #f78c6c; /* Orange */
+    --base0A: #ffcb6b; /* Yellow */
+    --base0B: #c3e88d; /* Green */
+    --base0C: #89ddff; /* Cyan */
+    --base0D: #82aaff; /* Blue */
+    --base0E: #c792ea; /* Purple */
+    --base0F: #ff5370; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

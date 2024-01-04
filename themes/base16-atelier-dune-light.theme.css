@@ -1,0 +1,57 @@
+/**
+* @name Atelier Dune Light
+* @author Bram de Haan (http://atelierbramdehaan.nl)
+**/
+
+:root {
+    --base00: #fefbec; /* Black */
+    --base01: #e8e4cf; /* Bright Black */
+    --base02: #a6a28c; /* Grey */
+    --base03: #999580; /* Brighter Grey */
+    --base04: #7d7a68; /* Bright Grey */
+    --base05: #6e6b5e; /* White */
+    --base06: #292824; /* Brighter White */
+    --base07: #20201d; /* Bright White */
+    --base08: #d73737; /* Red */
+    --base09: #b65611; /* Orange */
+    --base0A: #ae9513; /* Yellow */
+    --base0B: #60ac39; /* Green */
+    --base0C: #1fad83; /* Cyan */
+    --base0D: #6684e1; /* Blue */
+    --base0E: #b854d4; /* Purple */
+    --base0F: #d43552; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

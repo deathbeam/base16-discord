@@ -1,0 +1,57 @@
+/**
+* @name Tokyo City Dark
+* @author Michaël Ball
+**/
+
+:root {
+    --base00: #171d23; /* Black */
+    --base01: #1d252c; /* Bright Black */
+    --base02: #28323a; /* Grey */
+    --base03: #526270; /* Brighter Grey */
+    --base04: #b7c5d3; /* Bright Grey */
+    --base05: #d8e2ec; /* White */
+    --base06: #f6f6f8; /* Brighter White */
+    --base07: #fbfbfd; /* Bright White */
+    --base08: #f7768e; /* Red */
+    --base09: #ff9e64; /* Orange */
+    --base0A: #b7c5d3; /* Yellow */
+    --base0B: #9ece6a; /* Green */
+    --base0C: #89ddff; /* Cyan */
+    --base0D: #7aa2f7; /* Blue */
+    --base0E: #bb9af7; /* Purple */
+    --base0F: #bb9af7; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

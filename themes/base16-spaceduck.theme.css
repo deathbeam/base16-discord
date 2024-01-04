@@ -1,0 +1,57 @@
+/**
+* @name Spaceduck
+* @author Guillermo Rodriguez (https://github.com/pineapplegiant), packaged by Gabriel Fontes (https://github.com/Misterio77)
+**/
+
+:root {
+    --base00: #16172d; /* Black */
+    --base01: #1b1c36; /* Bright Black */
+    --base02: #30365f; /* Grey */
+    --base03: #686f9a; /* Brighter Grey */
+    --base04: #818596; /* Bright Grey */
+    --base05: #ecf0c1; /* White */
+    --base06: #c1c3cc; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #e33400; /* Red */
+    --base09: #e39400; /* Orange */
+    --base0A: #f2ce00; /* Yellow */
+    --base0B: #5ccc96; /* Green */
+    --base0C: #00a3cc; /* Cyan */
+    --base0D: #7a5ccc; /* Blue */
+    --base0E: #b3a1e6; /* Purple */
+    --base0F: #ce6f8f; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

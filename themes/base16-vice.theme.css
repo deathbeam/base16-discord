@@ -1,0 +1,57 @@
+/**
+* @name vice
+* @author Thomas Leon Highbaugh thighbaugh@zoho.com
+**/
+
+:root {
+    --base00: #17191e; /* Black */
+    --base01: #22262d; /* Bright Black */
+    --base02: #3c3f4c; /* Grey */
+    --base03: #383a47; /* Brighter Grey */
+    --base04: #555e70; /* Bright Grey */
+    --base05: #8b9cbe; /* White */
+    --base06: #b2bfd9; /* Brighter White */
+    --base07: #f4f4f7; /* Bright White */
+    --base08: #ff29a8; /* Red */
+    --base09: #85ffe0; /* Orange */
+    --base0A: #f0ffaa; /* Yellow */
+    --base0B: #0badff; /* Green */
+    --base0C: #8265ff; /* Cyan */
+    --base0D: #00eaff; /* Blue */
+    --base0E: #00f6d9; /* Purple */
+    --base0F: #ff3d81; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

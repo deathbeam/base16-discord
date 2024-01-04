@@ -1,0 +1,57 @@
+/**
+* @name pandora
+* @author Cassandra Fox
+**/
+
+:root {
+    --base00: #131213; /* Black */
+    --base01: #2f1823; /* Bright Black */
+    --base02: #472234; /* Grey */
+    --base03: #ffbee3; /* Brighter Grey */
+    --base04: #9b2a46; /* Bright Grey */
+    --base05: #f15c99; /* White */
+    --base06: #81506a; /* Brighter White */
+    --base07: #632227; /* Bright White */
+    --base08: #b00b69; /* Red */
+    --base09: #ff9153; /* Orange */
+    --base0A: #ffcc00; /* Yellow */
+    --base0B: #9ddf69; /* Green */
+    --base0C: #714ca6; /* Cyan */
+    --base0D: #008080; /* Blue */
+    --base0E: #a24030; /* Purple */
+    --base0F: #a24030; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

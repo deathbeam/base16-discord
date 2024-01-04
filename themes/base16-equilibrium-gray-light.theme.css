@@ -1,0 +1,57 @@
+/**
+* @name Equilibrium Gray Light
+* @author Carlo Abelli
+**/
+
+:root {
+    --base00: #f1f1f1; /* Black */
+    --base01: #e2e2e2; /* Bright Black */
+    --base02: #d4d4d4; /* Grey */
+    --base03: #777777; /* Brighter Grey */
+    --base04: #5e5e5e; /* Bright Grey */
+    --base05: #474747; /* White */
+    --base06: #303030; /* Brighter White */
+    --base07: #1b1b1b; /* Bright White */
+    --base08: #d02023; /* Red */
+    --base09: #bf3e05; /* Orange */
+    --base0A: #9d6f00; /* Yellow */
+    --base0B: #637200; /* Green */
+    --base0C: #007a72; /* Cyan */
+    --base0D: #0073b5; /* Blue */
+    --base0E: #4e66b6; /* Purple */
+    --base0F: #c42775; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

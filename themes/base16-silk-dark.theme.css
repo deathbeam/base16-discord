@@ -1,0 +1,57 @@
+/**
+* @name Silk Dark
+* @author Gabriel Fontes (https://github.com/Misterio77)
+**/
+
+:root {
+    --base00: #0e3c46; /* Black */
+    --base01: #1d494e; /* Bright Black */
+    --base02: #2a5054; /* Grey */
+    --base03: #587073; /* Brighter Grey */
+    --base04: #9dc8cd; /* Bright Grey */
+    --base05: #c7dbdd; /* White */
+    --base06: #cbf2f7; /* Brighter White */
+    --base07: #d2faff; /* Bright White */
+    --base08: #fb6953; /* Red */
+    --base09: #fcab74; /* Orange */
+    --base0A: #fce380; /* Yellow */
+    --base0B: #73d8ad; /* Green */
+    --base0C: #3fb2b9; /* Cyan */
+    --base0D: #46bddd; /* Blue */
+    --base0E: #756b8a; /* Purple */
+    --base0F: #9b647b; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

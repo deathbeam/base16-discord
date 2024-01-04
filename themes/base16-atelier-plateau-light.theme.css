@@ -1,0 +1,57 @@
+/**
+* @name Atelier Plateau Light
+* @author Bram de Haan (http://atelierbramdehaan.nl)
+**/
+
+:root {
+    --base00: #f4ecec; /* Black */
+    --base01: #e7dfdf; /* Bright Black */
+    --base02: #8a8585; /* Grey */
+    --base03: #7e7777; /* Brighter Grey */
+    --base04: #655d5d; /* Bright Grey */
+    --base05: #585050; /* White */
+    --base06: #292424; /* Brighter White */
+    --base07: #1b1818; /* Bright White */
+    --base08: #ca4949; /* Red */
+    --base09: #b45a3c; /* Orange */
+    --base0A: #a06e3b; /* Yellow */
+    --base0B: #4b8b8b; /* Green */
+    --base0C: #5485b6; /* Cyan */
+    --base0D: #7272ca; /* Blue */
+    --base0E: #8464c4; /* Purple */
+    --base0F: #bd5187; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

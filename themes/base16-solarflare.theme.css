@@ -1,0 +1,57 @@
+/**
+* @name Solar Flare
+* @author Chuck Harmston (https://chuck.harmston.ch)
+**/
+
+:root {
+    --base00: #18262f; /* Black */
+    --base01: #222e38; /* Bright Black */
+    --base02: #586875; /* Grey */
+    --base03: #667581; /* Brighter Grey */
+    --base04: #85939e; /* Bright Grey */
+    --base05: #a6afb8; /* White */
+    --base06: #e8e9ed; /* Brighter White */
+    --base07: #f5f7fa; /* Bright White */
+    --base08: #ef5253; /* Red */
+    --base09: #e66b2b; /* Orange */
+    --base0A: #e4b51c; /* Yellow */
+    --base0B: #7cc844; /* Green */
+    --base0C: #52cbb0; /* Cyan */
+    --base0D: #33b5e1; /* Blue */
+    --base0E: #a363d5; /* Purple */
+    --base0F: #d73c9a; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name Brewer
+* @author Timothée Poisot (http://github.com/tpoisot)
+**/
+
+:root {
+    --base00: #0c0d0e; /* Black */
+    --base01: #2e2f30; /* Bright Black */
+    --base02: #515253; /* Grey */
+    --base03: #737475; /* Brighter Grey */
+    --base04: #959697; /* Bright Grey */
+    --base05: #b7b8b9; /* White */
+    --base06: #dadbdc; /* Brighter White */
+    --base07: #fcfdfe; /* Bright White */
+    --base08: #e31a1c; /* Red */
+    --base09: #e6550d; /* Orange */
+    --base0A: #dca060; /* Yellow */
+    --base0B: #31a354; /* Green */
+    --base0C: #80b1d3; /* Cyan */
+    --base0D: #3182bd; /* Blue */
+    --base0E: #756bb1; /* Purple */
+    --base0F: #b15928; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

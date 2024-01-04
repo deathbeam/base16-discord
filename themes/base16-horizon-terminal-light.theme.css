@@ -1,0 +1,57 @@
+/**
+* @name Horizon Terminal Light
+* @author Michaël Ball (http://github.com/michael-ball/)
+**/
+
+:root {
+    --base00: #fdf0ed; /* Black */
+    --base01: #fadad1; /* Bright Black */
+    --base02: #f9cbbe; /* Grey */
+    --base03: #bdb3b1; /* Brighter Grey */
+    --base04: #948c8a; /* Bright Grey */
+    --base05: #403c3d; /* White */
+    --base06: #302c2d; /* Brighter White */
+    --base07: #201c1d; /* Bright White */
+    --base08: #e95678; /* Red */
+    --base09: #f9cec3; /* Orange */
+    --base0A: #fadad1; /* Yellow */
+    --base0B: #29d398; /* Green */
+    --base0C: #59e1e3; /* Cyan */
+    --base0D: #26bbd9; /* Blue */
+    --base0E: #ee64ac; /* Purple */
+    --base0F: #f9cbbe; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

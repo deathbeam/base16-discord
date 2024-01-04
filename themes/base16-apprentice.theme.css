@@ -1,0 +1,57 @@
+/**
+* @name Apprentice
+* @author romainl
+**/
+
+:root {
+    --base00: #262626; /* Black */
+    --base01: #af5f5f; /* Bright Black */
+    --base02: #5f875f; /* Grey */
+    --base03: #87875f; /* Brighter Grey */
+    --base04: #5f87af; /* Bright Grey */
+    --base05: #5f5f87; /* White */
+    --base06: #5f8787; /* Brighter White */
+    --base07: #6c6c6c; /* Bright White */
+    --base08: #444444; /* Red */
+    --base09: #ff8700; /* Orange */
+    --base0A: #87af87; /* Yellow */
+    --base0B: #ffffaf; /* Green */
+    --base0C: #87afd7; /* Cyan */
+    --base0D: #8787af; /* Blue */
+    --base0E: #5fafaf; /* Purple */
+    --base0F: #bcbcbc; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

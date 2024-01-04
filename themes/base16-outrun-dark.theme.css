@@ -1,0 +1,57 @@
+/**
+* @name Outrun Dark
+* @author Hugo Delahousse (http://github.com/hugodelahousse/)
+**/
+
+:root {
+    --base00: #00002a; /* Black */
+    --base01: #20204a; /* Bright Black */
+    --base02: #30305a; /* Grey */
+    --base03: #50507a; /* Brighter Grey */
+    --base04: #b0b0da; /* Bright Grey */
+    --base05: #d0d0fa; /* White */
+    --base06: #e0e0ff; /* Brighter White */
+    --base07: #f5f5ff; /* Bright White */
+    --base08: #ff4242; /* Red */
+    --base09: #fc8d28; /* Orange */
+    --base0A: #f3e877; /* Yellow */
+    --base0B: #59f176; /* Green */
+    --base0C: #0ef0f0; /* Cyan */
+    --base0D: #66b0ff; /* Blue */
+    --base0E: #f10596; /* Purple */
+    --base0F: #f003ef; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

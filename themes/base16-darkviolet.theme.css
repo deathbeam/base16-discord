@@ -1,0 +1,57 @@
+/**
+* @name Dark Violet
+* @author ruler501 (https://github.com/ruler501/base16-darkviolet)
+**/
+
+:root {
+    --base00: #000000; /* Black */
+    --base01: #231a40; /* Bright Black */
+    --base02: #432d59; /* Grey */
+    --base03: #593380; /* Brighter Grey */
+    --base04: #00ff00; /* Bright Grey */
+    --base05: #b08ae6; /* White */
+    --base06: #9045e6; /* Brighter White */
+    --base07: #a366ff; /* Bright White */
+    --base08: #a82ee6; /* Red */
+    --base09: #bb66cc; /* Orange */
+    --base0A: #f29df2; /* Yellow */
+    --base0B: #4595e6; /* Green */
+    --base0C: #40dfff; /* Cyan */
+    --base0D: #4136d9; /* Blue */
+    --base0E: #7e5ce6; /* Purple */
+    --base0F: #a886bf; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

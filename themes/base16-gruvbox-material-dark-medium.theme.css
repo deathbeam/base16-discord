@@ -1,0 +1,57 @@
+/**
+* @name Gruvbox Material Dark, Medium
+* @author Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+**/
+
+:root {
+    --base00: #292828; /* Black */
+    --base01: #32302f; /* Bright Black */
+    --base02: #504945; /* Grey */
+    --base03: #665c54; /* Brighter Grey */
+    --base04: #bdae93; /* Bright Grey */
+    --base05: #ddc7a1; /* White */
+    --base06: #ebdbb2; /* Brighter White */
+    --base07: #fbf1c7; /* Bright White */
+    --base08: #ea6962; /* Red */
+    --base09: #e78a4e; /* Orange */
+    --base0A: #d8a657; /* Yellow */
+    --base0B: #a9b665; /* Green */
+    --base0C: #89b482; /* Cyan */
+    --base0D: #7daea3; /* Blue */
+    --base0E: #d3869b; /* Purple */
+    --base0F: #bd6f3e; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

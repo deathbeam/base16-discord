@@ -1,0 +1,57 @@
+/**
+* @name Windows 95 Light
+* @author Fergus Collins (https://github.com/C-Fergus)
+**/
+
+:root {
+    --base00: #fcfcfc; /* Black */
+    --base01: #e0e0e0; /* Bright Black */
+    --base02: #c4c4c4; /* Grey */
+    --base03: #a8a8a8; /* Brighter Grey */
+    --base04: #7e7e7e; /* Bright Grey */
+    --base05: #545454; /* White */
+    --base06: #2a2a2a; /* Brighter White */
+    --base07: #000000; /* Bright White */
+    --base08: #a80000; /* Red */
+    --base09: #fcfc54; /* Orange */
+    --base0A: #a85400; /* Yellow */
+    --base0B: #00a800; /* Green */
+    --base0C: #00a8a8; /* Cyan */
+    --base0D: #0000a8; /* Blue */
+    --base0E: #a800a8; /* Purple */
+    --base0F: #54fc54; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

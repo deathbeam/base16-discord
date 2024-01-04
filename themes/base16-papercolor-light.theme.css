@@ -1,0 +1,57 @@
+/**
+* @name PaperColor Light
+* @author Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+**/
+
+:root {
+    --base00: #eeeeee; /* Black */
+    --base01: #af0000; /* Bright Black */
+    --base02: #008700; /* Grey */
+    --base03: #5f8700; /* Brighter Grey */
+    --base04: #0087af; /* Bright Grey */
+    --base05: #444444; /* White */
+    --base06: #005f87; /* Brighter White */
+    --base07: #878787; /* Bright White */
+    --base08: #bcbcbc; /* Red */
+    --base09: #d70000; /* Orange */
+    --base0A: #d70087; /* Yellow */
+    --base0B: #8700af; /* Green */
+    --base0C: #d75f00; /* Cyan */
+    --base0D: #d75f00; /* Blue */
+    --base0E: #005faf; /* Purple */
+    --base0F: #005f87; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name Synth Midnight Terminal Light
+* @author Michaël Ball (http://github.com/michael-ball/)
+**/
+
+:root {
+    --base00: #dddfe0; /* Black */
+    --base01: #cfd1d2; /* Bright Black */
+    --base02: #c1c3c4; /* Grey */
+    --base03: #a3a5a6; /* Brighter Grey */
+    --base04: #474849; /* Bright Grey */
+    --base05: #28292a; /* White */
+    --base06: #1a1b1c; /* Brighter White */
+    --base07: #050608; /* Bright White */
+    --base08: #b53b50; /* Red */
+    --base09: #ea770d; /* Orange */
+    --base0A: #c9d364; /* Yellow */
+    --base0B: #06ea61; /* Green */
+    --base0C: #42fff9; /* Cyan */
+    --base0D: #03aeff; /* Blue */
+    --base0E: #ea5ce2; /* Purple */
+    --base0F: #cd6320; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

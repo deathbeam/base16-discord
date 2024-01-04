@@ -1,0 +1,57 @@
+/**
+* @name Kimber
+* @author Mishka Nguyen (https://github.com/akhsiM)
+**/
+
+:root {
+    --base00: #222222; /* Black */
+    --base01: #313131; /* Bright Black */
+    --base02: #555d55; /* Grey */
+    --base03: #644646; /* Brighter Grey */
+    --base04: #5a5a5a; /* Bright Grey */
+    --base05: #dedee7; /* White */
+    --base06: #c3c3b4; /* Brighter White */
+    --base07: #ffffe6; /* Bright White */
+    --base08: #c88c8c; /* Red */
+    --base09: #476c88; /* Orange */
+    --base0A: #d8b56d; /* Yellow */
+    --base0B: #99c899; /* Green */
+    --base0C: #78b4b4; /* Cyan */
+    --base0D: #537c9c; /* Blue */
+    --base0E: #86cacd; /* Purple */
+    --base0F: #704f4f; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

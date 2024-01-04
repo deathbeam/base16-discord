@@ -1,0 +1,57 @@
+/**
+* @name Qualia
+* @author isaacwhanson
+**/
+
+:root {
+    --base00: #101010; /* Black */
+    --base01: #454545; /* Bright Black */
+    --base02: #454545; /* Grey */
+    --base03: #454545; /* Brighter Grey */
+    --base04: #808080; /* Bright Grey */
+    --base05: #c0c0c0; /* White */
+    --base06: #c0c0c0; /* Brighter White */
+    --base07: #454545; /* Bright White */
+    --base08: #efa6a2; /* Red */
+    --base09: #a3b8ef; /* Orange */
+    --base0A: #e6a3dc; /* Yellow */
+    --base0B: #80c990; /* Green */
+    --base0C: #c8c874; /* Cyan */
+    --base0D: #50cacd; /* Blue */
+    --base0E: #e0af85; /* Purple */
+    --base0F: #808080; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

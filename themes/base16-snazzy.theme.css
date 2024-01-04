@@ -1,0 +1,57 @@
+/**
+* @name Snazzy
+* @author Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+**/
+
+:root {
+    --base00: #282a36; /* Black */
+    --base01: #34353e; /* Bright Black */
+    --base02: #43454f; /* Grey */
+    --base03: #78787e; /* Brighter Grey */
+    --base04: #a5a5a9; /* Bright Grey */
+    --base05: #e2e4e5; /* White */
+    --base06: #eff0eb; /* Brighter White */
+    --base07: #f1f1f0; /* Bright White */
+    --base08: #ff5c57; /* Red */
+    --base09: #ff9f43; /* Orange */
+    --base0A: #f3f99d; /* Yellow */
+    --base0B: #5af78e; /* Green */
+    --base0C: #9aedfe; /* Cyan */
+    --base0D: #57c7ff; /* Blue */
+    --base0E: #ff6ac1; /* Purple */
+    --base0F: #b2643c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

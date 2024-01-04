@@ -1,0 +1,57 @@
+/**
+* @name Cupcake
+* @author Chris Kempson (http://chriskempson.com)
+**/
+
+:root {
+    --base00: #fbf1f2; /* Black */
+    --base01: #f2f1f4; /* Bright Black */
+    --base02: #d8d5dd; /* Grey */
+    --base03: #bfb9c6; /* Brighter Grey */
+    --base04: #a59daf; /* Bright Grey */
+    --base05: #8b8198; /* White */
+    --base06: #72677e; /* Brighter White */
+    --base07: #585062; /* Bright White */
+    --base08: #d57e85; /* Red */
+    --base09: #ebb790; /* Orange */
+    --base0A: #dcb16c; /* Yellow */
+    --base0B: #a3b367; /* Green */
+    --base0C: #69a9a7; /* Cyan */
+    --base0D: #7297b9; /* Blue */
+    --base0E: #bb99b4; /* Purple */
+    --base0F: #baa58c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

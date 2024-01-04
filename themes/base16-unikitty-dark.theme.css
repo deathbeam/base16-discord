@@ -1,0 +1,57 @@
+/**
+* @name Unikitty Dark
+* @author Josh W Lewis (@joshwlewis)
+**/
+
+:root {
+    --base00: #2e2a31; /* Black */
+    --base01: #4a464d; /* Bright Black */
+    --base02: #666369; /* Grey */
+    --base03: #838085; /* Brighter Grey */
+    --base04: #9f9da2; /* Bright Grey */
+    --base05: #bcbabe; /* White */
+    --base06: #d8d7da; /* Brighter White */
+    --base07: #f5f4f7; /* Bright White */
+    --base08: #d8137f; /* Red */
+    --base09: #d65407; /* Orange */
+    --base0A: #dc8a0e; /* Yellow */
+    --base0B: #17ad98; /* Green */
+    --base0C: #149bda; /* Cyan */
+    --base0D: #796af5; /* Blue */
+    --base0E: #bb60ea; /* Purple */
+    --base0F: #c720ca; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

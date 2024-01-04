@@ -1,0 +1,57 @@
+/**
+* @name Atelier Sulphurpool
+* @author Bram de Haan (http://atelierbramdehaan.nl)
+**/
+
+:root {
+    --base00: #202746; /* Black */
+    --base01: #293256; /* Bright Black */
+    --base02: #5e6687; /* Grey */
+    --base03: #6b7394; /* Brighter Grey */
+    --base04: #898ea4; /* Bright Grey */
+    --base05: #979db4; /* White */
+    --base06: #dfe2f1; /* Brighter White */
+    --base07: #f5f7ff; /* Bright White */
+    --base08: #c94922; /* Red */
+    --base09: #c76b29; /* Orange */
+    --base0A: #c08b30; /* Yellow */
+    --base0B: #ac9739; /* Green */
+    --base0C: #22a2c9; /* Cyan */
+    --base0D: #3d8fd1; /* Blue */
+    --base0E: #6679cc; /* Purple */
+    --base0F: #9c637a; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

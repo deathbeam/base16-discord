@@ -1,0 +1,57 @@
+/**
+* @name Nord
+* @author arcticicestudio
+**/
+
+:root {
+    --base00: #2e3440; /* Black */
+    --base01: #3b4252; /* Bright Black */
+    --base02: #434c5e; /* Grey */
+    --base03: #4c566a; /* Brighter Grey */
+    --base04: #d8dee9; /* Bright Grey */
+    --base05: #e5e9f0; /* White */
+    --base06: #eceff4; /* Brighter White */
+    --base07: #8fbcbb; /* Bright White */
+    --base08: #bf616a; /* Red */
+    --base09: #d08770; /* Orange */
+    --base0A: #ebcb8b; /* Yellow */
+    --base0B: #a3be8c; /* Green */
+    --base0C: #88c0d0; /* Cyan */
+    --base0D: #81a1c1; /* Blue */
+    --base0E: #b48ead; /* Purple */
+    --base0F: #5e81ac; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

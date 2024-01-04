@@ -1,0 +1,57 @@
+/**
+* @name Nebula
+* @author Gabriel Fontes (https://github.com/Misterio77)
+**/
+
+:root {
+    --base00: #22273b; /* Black */
+    --base01: #414f60; /* Bright Black */
+    --base02: #5a8380; /* Grey */
+    --base03: #6e6f72; /* Brighter Grey */
+    --base04: #87888b; /* Bright Grey */
+    --base05: #a4a6a9; /* White */
+    --base06: #c7c9cd; /* Brighter White */
+    --base07: #8dbdaa; /* Bright White */
+    --base08: #777abc; /* Red */
+    --base09: #94929e; /* Orange */
+    --base0A: #4f9062; /* Yellow */
+    --base0B: #6562a8; /* Green */
+    --base0C: #226f68; /* Cyan */
+    --base0D: #4d6bb6; /* Blue */
+    --base0E: #716cae; /* Purple */
+    --base0F: #8c70a7; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

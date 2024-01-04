@@ -1,0 +1,57 @@
+/**
+* @name Kanagawa
+* @author Tommaso Laurenzi (https://github.com/rebelot)
+**/
+
+:root {
+    --base00: #1f1f28; /* Black */
+    --base01: #16161d; /* Bright Black */
+    --base02: #223249; /* Grey */
+    --base03: #54546d; /* Brighter Grey */
+    --base04: #727169; /* Bright Grey */
+    --base05: #dcd7ba; /* White */
+    --base06: #c8c093; /* Brighter White */
+    --base07: #717c7c; /* Bright White */
+    --base08: #c34043; /* Red */
+    --base09: #ffa066; /* Orange */
+    --base0A: #c0a36e; /* Yellow */
+    --base0B: #76946a; /* Green */
+    --base0C: #6a9589; /* Cyan */
+    --base0D: #7e9cd8; /* Blue */
+    --base0E: #957fb8; /* Purple */
+    --base0F: #d27e99; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

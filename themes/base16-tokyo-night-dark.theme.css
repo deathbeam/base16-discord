@@ -1,0 +1,57 @@
+/**
+* @name Tokyo Night Dark
+* @author Michaël Ball
+**/
+
+:root {
+    --base00: #1a1b26; /* Black */
+    --base01: #16161e; /* Bright Black */
+    --base02: #2f3549; /* Grey */
+    --base03: #444b6a; /* Brighter Grey */
+    --base04: #787c99; /* Bright Grey */
+    --base05: #a9b1d6; /* White */
+    --base06: #cbccd1; /* Brighter White */
+    --base07: #d5d6db; /* Bright White */
+    --base08: #c0caf5; /* Red */
+    --base09: #a9b1d6; /* Orange */
+    --base0A: #0db9d7; /* Yellow */
+    --base0B: #9ece6a; /* Green */
+    --base0C: #b4f9f8; /* Cyan */
+    --base0D: #2ac3de; /* Blue */
+    --base0E: #bb9af7; /* Purple */
+    --base0F: #f7768e; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

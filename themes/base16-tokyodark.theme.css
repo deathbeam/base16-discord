@@ -1,0 +1,57 @@
+/**
+* @name Tokyodark
+* @author Tiagovla (https://github.com/tiagovla/)
+**/
+
+:root {
+    --base00: #11121d; /* Black */
+    --base01: #151621; /* Bright Black */
+    --base02: #43444f; /* Grey */
+    --base03: #393a45; /* Brighter Grey */
+    --base04: #1b1c27; /* Bright Grey */
+    --base05: #abb2bf; /* White */
+    --base06: #555661; /* Brighter White */
+    --base07: #2c2d38; /* Bright White */
+    --base08: #a485dd; /* Red */
+    --base09: #a485dd; /* Orange */
+    --base0A: #7199ee; /* Yellow */
+    --base0B: #d7a65f; /* Green */
+    --base0C: #a485dd; /* Cyan */
+    --base0D: #95c561; /* Blue */
+    --base0E: #ee6d85; /* Purple */
+    --base0F: #773440; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

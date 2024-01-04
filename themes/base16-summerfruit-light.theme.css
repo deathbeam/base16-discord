@@ -1,0 +1,57 @@
+/**
+* @name Summerfruit Light
+* @author Christopher Corley (http://christop.club/)
+**/
+
+:root {
+    --base00: #ffffff; /* Black */
+    --base01: #e0e0e0; /* Bright Black */
+    --base02: #d0d0d0; /* Grey */
+    --base03: #b0b0b0; /* Brighter Grey */
+    --base04: #000000; /* Bright Grey */
+    --base05: #101010; /* White */
+    --base06: #151515; /* Brighter White */
+    --base07: #202020; /* Bright White */
+    --base08: #ff0086; /* Red */
+    --base09: #fd8900; /* Orange */
+    --base0A: #aba800; /* Yellow */
+    --base0B: #00c918; /* Green */
+    --base0C: #1faaaa; /* Cyan */
+    --base0D: #3777e6; /* Blue */
+    --base0E: #ad00a1; /* Purple */
+    --base0F: #cc6633; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name Porple
+* @author Niek den Breeje (https://github.com/AuditeMarlow)
+**/
+
+:root {
+    --base00: #292c36; /* Black */
+    --base01: #333344; /* Bright Black */
+    --base02: #474160; /* Grey */
+    --base03: #65568a; /* Brighter Grey */
+    --base04: #b8b8b8; /* Bright Grey */
+    --base05: #d8d8d8; /* White */
+    --base06: #e8e8e8; /* Brighter White */
+    --base07: #f8f8f8; /* Bright White */
+    --base08: #f84547; /* Red */
+    --base09: #d28e5d; /* Orange */
+    --base0A: #efa16b; /* Yellow */
+    --base0B: #95c76f; /* Green */
+    --base0C: #64878f; /* Cyan */
+    --base0D: #8485ce; /* Blue */
+    --base0E: #b74989; /* Purple */
+    --base0F: #986841; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

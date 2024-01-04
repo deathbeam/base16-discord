@@ -1,0 +1,57 @@
+/**
+* @name Green Screen
+* @author Chris Kempson (http://chriskempson.com)
+**/
+
+:root {
+    --base00: #001100; /* Black */
+    --base01: #003300; /* Bright Black */
+    --base02: #005500; /* Grey */
+    --base03: #007700; /* Brighter Grey */
+    --base04: #009900; /* Bright Grey */
+    --base05: #00bb00; /* White */
+    --base06: #00dd00; /* Brighter White */
+    --base07: #00ff00; /* Bright White */
+    --base08: #007700; /* Red */
+    --base09: #009900; /* Orange */
+    --base0A: #007700; /* Yellow */
+    --base0B: #00bb00; /* Green */
+    --base0C: #005500; /* Cyan */
+    --base0D: #009900; /* Blue */
+    --base0E: #00bb00; /* Purple */
+    --base0F: #005500; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

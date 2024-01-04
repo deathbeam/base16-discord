@@ -1,0 +1,57 @@
+/**
+* @name Humanoid light
+* @author Thomas (tasmo) Friese
+**/
+
+:root {
+    --base00: #f8f8f2; /* Black */
+    --base01: #efefe9; /* Bright Black */
+    --base02: #deded8; /* Grey */
+    --base03: #c0c0bd; /* Brighter Grey */
+    --base04: #60615d; /* Bright Grey */
+    --base05: #232629; /* White */
+    --base06: #2f3337; /* Brighter White */
+    --base07: #070708; /* Bright White */
+    --base08: #b0151a; /* Red */
+    --base09: #ff3d00; /* Orange */
+    --base0A: #ffb627; /* Yellow */
+    --base0B: #388e3c; /* Green */
+    --base0C: #008e8e; /* Cyan */
+    --base0D: #0082c9; /* Blue */
+    --base0E: #700f98; /* Purple */
+    --base0F: #b27701; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

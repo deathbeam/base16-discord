@@ -1,0 +1,57 @@
+/**
+* @name 3024
+* @author Jan T. Sott (http://github.com/idleberg)
+**/
+
+:root {
+    --base00: #090300; /* Black */
+    --base01: #3a3432; /* Bright Black */
+    --base02: #4a4543; /* Grey */
+    --base03: #5c5855; /* Brighter Grey */
+    --base04: #807d7c; /* Bright Grey */
+    --base05: #a5a2a2; /* White */
+    --base06: #d6d5d4; /* Brighter White */
+    --base07: #f7f7f7; /* Bright White */
+    --base08: #db2d20; /* Red */
+    --base09: #e8bbd0; /* Orange */
+    --base0A: #fded02; /* Yellow */
+    --base0B: #01a252; /* Green */
+    --base0C: #b5e4f4; /* Cyan */
+    --base0D: #01a0e4; /* Blue */
+    --base0E: #a16a94; /* Purple */
+    --base0F: #cdab53; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

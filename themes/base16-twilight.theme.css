@@ -1,0 +1,57 @@
+/**
+* @name Twilight
+* @author David Hart (https://github.com/hartbit)
+**/
+
+:root {
+    --base00: #1e1e1e; /* Black */
+    --base01: #323537; /* Bright Black */
+    --base02: #464b50; /* Grey */
+    --base03: #5f5a60; /* Brighter Grey */
+    --base04: #838184; /* Bright Grey */
+    --base05: #a7a7a7; /* White */
+    --base06: #c3c3c3; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #cf6a4c; /* Red */
+    --base09: #cda869; /* Orange */
+    --base0A: #f9ee98; /* Yellow */
+    --base0B: #8f9d6a; /* Green */
+    --base0C: #afc4db; /* Cyan */
+    --base0D: #7587a6; /* Blue */
+    --base0E: #9b859d; /* Purple */
+    --base0F: #9b703f; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

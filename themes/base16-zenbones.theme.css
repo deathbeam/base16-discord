@@ -1,0 +1,57 @@
+/**
+* @name Zenbones
+* @author mcchrish
+**/
+
+:root {
+    --base00: #191919; /* Black */
+    --base01: #de6e7c; /* Bright Black */
+    --base02: #819b69; /* Grey */
+    --base03: #b77e64; /* Brighter Grey */
+    --base04: #6099c0; /* Bright Grey */
+    --base05: #b279a7; /* White */
+    --base06: #66a5ad; /* Brighter White */
+    --base07: #bbbbbb; /* Bright White */
+    --base08: #3d3839; /* Red */
+    --base09: #e8838f; /* Orange */
+    --base0A: #8bae68; /* Yellow */
+    --base0B: #d68c67; /* Green */
+    --base0C: #61abda; /* Cyan */
+    --base0D: #cf86c1; /* Blue */
+    --base0E: #65b8c1; /* Purple */
+    --base0F: #8e8e8e; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

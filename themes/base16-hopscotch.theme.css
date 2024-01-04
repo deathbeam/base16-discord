@@ -1,0 +1,57 @@
+/**
+* @name Hopscotch
+* @author Jan T. Sott
+**/
+
+:root {
+    --base00: #322931; /* Black */
+    --base01: #433b42; /* Bright Black */
+    --base02: #5c545b; /* Grey */
+    --base03: #797379; /* Brighter Grey */
+    --base04: #989498; /* Bright Grey */
+    --base05: #b9b5b8; /* White */
+    --base06: #d5d3d5; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #dd464c; /* Red */
+    --base09: #fd8b19; /* Orange */
+    --base0A: #fdcc59; /* Yellow */
+    --base0B: #8fc13e; /* Green */
+    --base0C: #149b93; /* Cyan */
+    --base0D: #1290bf; /* Blue */
+    --base0E: #c85e7c; /* Purple */
+    --base0F: #b33508; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name Embers
+* @author Jannik Siebert (https://github.com/janniks)
+**/
+
+:root {
+    --base00: #16130f; /* Black */
+    --base01: #2c2620; /* Bright Black */
+    --base02: #433b32; /* Grey */
+    --base03: #5a5047; /* Brighter Grey */
+    --base04: #8a8075; /* Bright Grey */
+    --base05: #a39a90; /* White */
+    --base06: #beb6ae; /* Brighter White */
+    --base07: #dbd6d1; /* Bright White */
+    --base08: #826d57; /* Red */
+    --base09: #828257; /* Orange */
+    --base0A: #6d8257; /* Yellow */
+    --base0B: #57826d; /* Green */
+    --base0C: #576d82; /* Cyan */
+    --base0D: #6d5782; /* Blue */
+    --base0E: #82576d; /* Purple */
+    --base0F: #825757; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

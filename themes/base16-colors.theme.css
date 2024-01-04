@@ -1,0 +1,57 @@
+/**
+* @name Colors
+* @author mrmrs (http://clrs.cc)
+**/
+
+:root {
+    --base00: #111111; /* Black */
+    --base01: #333333; /* Bright Black */
+    --base02: #555555; /* Grey */
+    --base03: #777777; /* Brighter Grey */
+    --base04: #999999; /* Bright Grey */
+    --base05: #bbbbbb; /* White */
+    --base06: #dddddd; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #ff4136; /* Red */
+    --base09: #ff851b; /* Orange */
+    --base0A: #ffdc00; /* Yellow */
+    --base0B: #2ecc40; /* Green */
+    --base0C: #7fdbff; /* Cyan */
+    --base0D: #0074d9; /* Blue */
+    --base0E: #b10dc9; /* Purple */
+    --base0F: #85144b; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

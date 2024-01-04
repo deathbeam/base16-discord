@@ -1,0 +1,57 @@
+/**
+* @name Apathy
+* @author Jannik Siebert (https://github.com/janniks)
+**/
+
+:root {
+    --base00: #031a16; /* Black */
+    --base01: #0b342d; /* Bright Black */
+    --base02: #184e45; /* Grey */
+    --base03: #2b685e; /* Brighter Grey */
+    --base04: #5f9c92; /* Bright Grey */
+    --base05: #81b5ac; /* White */
+    --base06: #a7cec8; /* Brighter White */
+    --base07: #d2e7e4; /* Bright White */
+    --base08: #3e9688; /* Red */
+    --base09: #3e7996; /* Orange */
+    --base0A: #3e4c96; /* Yellow */
+    --base0B: #883e96; /* Green */
+    --base0C: #963e4c; /* Cyan */
+    --base0D: #96883e; /* Blue */
+    --base0E: #4c963e; /* Purple */
+    --base0F: #3e965b; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

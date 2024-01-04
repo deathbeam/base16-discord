@@ -1,0 +1,57 @@
+/**
+* @name Gotham
+* @author Andrea Leopardi (arranged by Brett Jones)
+**/
+
+:root {
+    --base00: #0c1014; /* Black */
+    --base01: #11151c; /* Bright Black */
+    --base02: #091f2e; /* Grey */
+    --base03: #0a3749; /* Brighter Grey */
+    --base04: #245361; /* Bright Grey */
+    --base05: #599cab; /* White */
+    --base06: #99d1ce; /* Brighter White */
+    --base07: #d3ebe9; /* Bright White */
+    --base08: #c23127; /* Red */
+    --base09: #d26937; /* Orange */
+    --base0A: #edb443; /* Yellow */
+    --base0B: #33859e; /* Green */
+    --base0C: #2aa889; /* Cyan */
+    --base0D: #195466; /* Blue */
+    --base0E: #888ca6; /* Purple */
+    --base0F: #4e5166; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

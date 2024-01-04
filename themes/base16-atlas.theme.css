@@ -1,0 +1,57 @@
+/**
+* @name Atlas
+* @author Alex Lende (https://ajlende.com)
+**/
+
+:root {
+    --base00: #002635; /* Black */
+    --base01: #00384d; /* Bright Black */
+    --base02: #517f8d; /* Grey */
+    --base03: #6c8b91; /* Brighter Grey */
+    --base04: #869696; /* Bright Grey */
+    --base05: #a1a19a; /* White */
+    --base06: #e6e6dc; /* Brighter White */
+    --base07: #fafaf8; /* Bright White */
+    --base08: #ff5a67; /* Red */
+    --base09: #f08e48; /* Orange */
+    --base0A: #ffcc1b; /* Yellow */
+    --base0B: #7fc06e; /* Green */
+    --base0C: #14747e; /* Cyan */
+    --base0D: #5dd7b9; /* Blue */
+    --base0E: #9a70a4; /* Purple */
+    --base0F: #c43060; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

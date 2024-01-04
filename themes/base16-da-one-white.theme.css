@@ -1,0 +1,57 @@
+/**
+* @name Da One White
+* @author NNB (https://github.com/NNBnh)
+**/
+
+:root {
+    --base00: #ffffff; /* Black */
+    --base01: #c8c8c8; /* Bright Black */
+    --base02: #888888; /* Grey */
+    --base03: #585858; /* Brighter Grey */
+    --base04: #282828; /* Bright Grey */
+    --base05: #181818; /* White */
+    --base06: #000000; /* Brighter White */
+    --base07: #000000; /* Bright White */
+    --base08: #de5d6e; /* Red */
+    --base09: #ff9470; /* Orange */
+    --base0A: #b3684f; /* Yellow */
+    --base0B: #76a85d; /* Green */
+    --base0C: #64b5a7; /* Cyan */
+    --base0D: #5890f8; /* Blue */
+    --base0E: #c173d1; /* Purple */
+    --base0F: #b3684f; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

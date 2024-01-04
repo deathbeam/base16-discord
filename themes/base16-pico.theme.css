@@ -1,0 +1,57 @@
+/**
+* @name Pico
+* @author PICO-8 (http://www.lexaloffle.com/pico-8.php)
+**/
+
+:root {
+    --base00: #000000; /* Black */
+    --base01: #1d2b53; /* Bright Black */
+    --base02: #7e2553; /* Grey */
+    --base03: #008751; /* Brighter Grey */
+    --base04: #ab5236; /* Bright Grey */
+    --base05: #5f574f; /* White */
+    --base06: #c2c3c7; /* Brighter White */
+    --base07: #fff1e8; /* Bright White */
+    --base08: #ff004d; /* Red */
+    --base09: #ffa300; /* Orange */
+    --base0A: #fff024; /* Yellow */
+    --base0B: #00e756; /* Green */
+    --base0C: #29adff; /* Cyan */
+    --base0D: #83769c; /* Blue */
+    --base0E: #ff77a8; /* Purple */
+    --base0F: #ffccaa; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

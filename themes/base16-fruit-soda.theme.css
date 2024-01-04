@@ -1,0 +1,57 @@
+/**
+* @name Fruit Soda
+* @author jozip
+**/
+
+:root {
+    --base00: #f1ecf1; /* Black */
+    --base01: #e0dee0; /* Bright Black */
+    --base02: #d8d5d5; /* Grey */
+    --base03: #b5b4b6; /* Brighter Grey */
+    --base04: #979598; /* Bright Grey */
+    --base05: #515151; /* White */
+    --base06: #474545; /* Brighter White */
+    --base07: #2d2c2c; /* Bright White */
+    --base08: #fe3e31; /* Red */
+    --base09: #fe6d08; /* Orange */
+    --base0A: #f7e203; /* Yellow */
+    --base0B: #47f74c; /* Green */
+    --base0C: #0f9cfd; /* Cyan */
+    --base0D: #2931df; /* Blue */
+    --base0E: #611fce; /* Purple */
+    --base0F: #b16f40; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

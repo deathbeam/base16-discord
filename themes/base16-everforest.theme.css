@@ -1,0 +1,57 @@
+/**
+* @name Everforest
+* @author Sainnhe Park (https://github.com/sainnhe)
+**/
+
+:root {
+    --base00: #2f383e; /* Black */
+    --base01: #374247; /* Bright Black */
+    --base02: #4a555b; /* Grey */
+    --base03: #859289; /* Brighter Grey */
+    --base04: #9da9a0; /* Bright Grey */
+    --base05: #d3c6aa; /* White */
+    --base06: #e4e1cd; /* Brighter White */
+    --base07: #fdf6e3; /* Bright White */
+    --base08: #7fbbb3; /* Red */
+    --base09: #d699b6; /* Orange */
+    --base0A: #dbbc7f; /* Yellow */
+    --base0B: #83c092; /* Green */
+    --base0C: #e69875; /* Cyan */
+    --base0D: #a7c080; /* Blue */
+    --base0E: #e67e80; /* Purple */
+    --base0F: #eaedc8; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name OceanicNext
+* @author https://github.com/voronianski/oceanic-next-color-scheme
+**/
+
+:root {
+    --base00: #1b2b34; /* Black */
+    --base01: #343d46; /* Bright Black */
+    --base02: #4f5b66; /* Grey */
+    --base03: #65737e; /* Brighter Grey */
+    --base04: #a7adba; /* Bright Grey */
+    --base05: #c0c5ce; /* White */
+    --base06: #cdd3de; /* Brighter White */
+    --base07: #d8dee9; /* Bright White */
+    --base08: #ec5f67; /* Red */
+    --base09: #f99157; /* Orange */
+    --base0A: #fac863; /* Yellow */
+    --base0B: #99c794; /* Green */
+    --base0C: #5fb3b3; /* Cyan */
+    --base0D: #6699cc; /* Blue */
+    --base0E: #c594c5; /* Purple */
+    --base0F: #ab7967; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

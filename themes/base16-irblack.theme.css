@@ -1,0 +1,57 @@
+/**
+* @name IR Black
+* @author Timothée Poisot (http://timotheepoisot.fr)
+**/
+
+:root {
+    --base00: #000000; /* Black */
+    --base01: #242422; /* Bright Black */
+    --base02: #484844; /* Grey */
+    --base03: #6c6c66; /* Brighter Grey */
+    --base04: #918f88; /* Bright Grey */
+    --base05: #b5b3aa; /* White */
+    --base06: #d9d7cc; /* Brighter White */
+    --base07: #fdfbee; /* Bright White */
+    --base08: #ff6c60; /* Red */
+    --base09: #e9c062; /* Orange */
+    --base0A: #ffffb6; /* Yellow */
+    --base0B: #a8ff60; /* Green */
+    --base0C: #c6c5fe; /* Cyan */
+    --base0D: #96cbfe; /* Blue */
+    --base0E: #ff73fd; /* Purple */
+    --base0F: #b18a3d; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

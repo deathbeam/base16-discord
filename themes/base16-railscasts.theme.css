@@ -1,0 +1,57 @@
+/**
+* @name Railscasts
+* @author Ryan Bates (http://railscasts.com)
+**/
+
+:root {
+    --base00: #2b2b2b; /* Black */
+    --base01: #272935; /* Bright Black */
+    --base02: #3a4055; /* Grey */
+    --base03: #5a647e; /* Brighter Grey */
+    --base04: #d4cfc9; /* Bright Grey */
+    --base05: #e6e1dc; /* White */
+    --base06: #f4f1ed; /* Brighter White */
+    --base07: #f9f7f3; /* Bright White */
+    --base08: #da4939; /* Red */
+    --base09: #cc7833; /* Orange */
+    --base0A: #ffc66d; /* Yellow */
+    --base0B: #a5c261; /* Green */
+    --base0C: #519f50; /* Cyan */
+    --base0D: #6d9cbe; /* Blue */
+    --base0E: #b6b3eb; /* Purple */
+    --base0F: #bc9458; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

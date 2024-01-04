@@ -1,0 +1,57 @@
+/**
+* @name Gruber
+* @author Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+**/
+
+:root {
+    --base00: #181818; /* Black */
+    --base01: #453d41; /* Bright Black */
+    --base02: #484848; /* Grey */
+    --base03: #52494e; /* Brighter Grey */
+    --base04: #e4e4ef; /* Bright Grey */
+    --base05: #f4f4ff; /* White */
+    --base06: #f5f5f5; /* Brighter White */
+    --base07: #e4e4ef; /* Bright White */
+    --base08: #f43841; /* Red */
+    --base09: #c73c3f; /* Orange */
+    --base0A: #ffdd33; /* Yellow */
+    --base0B: #73c936; /* Green */
+    --base0C: #95a99f; /* Cyan */
+    --base0D: #96a6c8; /* Blue */
+    --base0E: #9e95c7; /* Purple */
+    --base0F: #cc8c3c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

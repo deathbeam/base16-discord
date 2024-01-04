@@ -1,0 +1,57 @@
+/**
+* @name Google Dark
+* @author Seth Wright (http://sethawright.com)
+**/
+
+:root {
+    --base00: #1d1f21; /* Black */
+    --base01: #282a2e; /* Bright Black */
+    --base02: #373b41; /* Grey */
+    --base03: #969896; /* Brighter Grey */
+    --base04: #b4b7b4; /* Bright Grey */
+    --base05: #c5c8c6; /* White */
+    --base06: #e0e0e0; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #cc342b; /* Red */
+    --base09: #f96a38; /* Orange */
+    --base0A: #fba922; /* Yellow */
+    --base0B: #198844; /* Green */
+    --base0C: #3971ed; /* Cyan */
+    --base0D: #3971ed; /* Blue */
+    --base0E: #a36ac7; /* Purple */
+    --base0F: #3971ed; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

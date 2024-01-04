@@ -1,0 +1,57 @@
+/**
+* @name London Tube
+* @author Jan T. Sott
+**/
+
+:root {
+    --base00: #231f20; /* Black */
+    --base01: #1c3f95; /* Bright Black */
+    --base02: #5a5758; /* Grey */
+    --base03: #737171; /* Brighter Grey */
+    --base04: #959ca1; /* Bright Grey */
+    --base05: #d9d8d8; /* White */
+    --base06: #e7e7e8; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #ee2e24; /* Red */
+    --base09: #f386a1; /* Orange */
+    --base0A: #ffd204; /* Yellow */
+    --base0B: #00853e; /* Green */
+    --base0C: #85cebc; /* Cyan */
+    --base0D: #009ddc; /* Blue */
+    --base0E: #98005d; /* Purple */
+    --base0F: #b06110; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

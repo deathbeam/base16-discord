@@ -1,0 +1,57 @@
+/**
+* @name Shades of Purple
+* @author Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
+**/
+
+:root {
+    --base00: #1e1e3f; /* Black */
+    --base01: #43d426; /* Bright Black */
+    --base02: #f1d000; /* Grey */
+    --base03: #808080; /* Brighter Grey */
+    --base04: #6871ff; /* Bright Grey */
+    --base05: #c7c7c7; /* White */
+    --base06: #ff77ff; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #d90429; /* Red */
+    --base09: #f92a1c; /* Orange */
+    --base0A: #ffe700; /* Yellow */
+    --base0B: #3ad900; /* Green */
+    --base0C: #00c5c7; /* Cyan */
+    --base0D: #6943ff; /* Blue */
+    --base0E: #ff2c70; /* Purple */
+    --base0F: #79e8fb; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

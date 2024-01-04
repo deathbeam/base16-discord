@@ -1,0 +1,57 @@
+/**
+* @name selenized-dark
+* @author Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+**/
+
+:root {
+    --base00: #103c48; /* Black */
+    --base01: #184956; /* Bright Black */
+    --base02: #2d5b69; /* Grey */
+    --base03: #72898f; /* Brighter Grey */
+    --base04: #72898f; /* Bright Grey */
+    --base05: #adbcbc; /* White */
+    --base06: #cad8d9; /* Brighter White */
+    --base07: #cad8d9; /* Bright White */
+    --base08: #fa5750; /* Red */
+    --base09: #ed8649; /* Orange */
+    --base0A: #dbb32d; /* Yellow */
+    --base0B: #75b938; /* Green */
+    --base0C: #41c7b9; /* Cyan */
+    --base0D: #4695f7; /* Blue */
+    --base0E: #af88eb; /* Purple */
+    --base0F: #f275be; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

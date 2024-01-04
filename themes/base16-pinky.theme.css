@@ -1,0 +1,57 @@
+/**
+* @name pinky
+* @author Benjamin (https://github.com/b3nj5m1n)
+**/
+
+:root {
+    --base00: #171517; /* Black */
+    --base01: #1b181b; /* Bright Black */
+    --base02: #1d1b1d; /* Grey */
+    --base03: #383338; /* Brighter Grey */
+    --base04: #e7dbdb; /* Bright Grey */
+    --base05: #f5f5f5; /* White */
+    --base06: #ffffff; /* Brighter White */
+    --base07: #f7f3f7; /* Bright White */
+    --base08: #ffa600; /* Red */
+    --base09: #00ff66; /* Orange */
+    --base0A: #20df6c; /* Yellow */
+    --base0B: #ff0066; /* Green */
+    --base0C: #6600ff; /* Cyan */
+    --base0D: #00ffff; /* Blue */
+    --base0E: #007fff; /* Purple */
+    --base0F: #df206c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

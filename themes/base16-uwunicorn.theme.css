@@ -1,0 +1,57 @@
+/**
+* @name UwUnicorn
+* @author Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+**/
+
+:root {
+    --base00: #241b26; /* Black */
+    --base01: #2f2a3f; /* Bright Black */
+    --base02: #46354a; /* Grey */
+    --base03: #6c3cb2; /* Brighter Grey */
+    --base04: #7e5f83; /* Bright Grey */
+    --base05: #eed5d9; /* White */
+    --base06: #d9c2c6; /* Brighter White */
+    --base07: #e4ccd0; /* Bright White */
+    --base08: #877bb6; /* Red */
+    --base09: #de5b44; /* Orange */
+    --base0A: #a84a73; /* Yellow */
+    --base0B: #c965bf; /* Green */
+    --base0C: #9c5fce; /* Cyan */
+    --base0D: #6a9eb5; /* Blue */
+    --base0E: #78a38f; /* Purple */
+    --base0F: #a3a079; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

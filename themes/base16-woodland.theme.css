@@ -1,0 +1,57 @@
+/**
+* @name Woodland
+* @author Jay Cornwall (https://jcornwall.com)
+**/
+
+:root {
+    --base00: #231e18; /* Black */
+    --base01: #302b25; /* Bright Black */
+    --base02: #48413a; /* Grey */
+    --base03: #9d8b70; /* Brighter Grey */
+    --base04: #b4a490; /* Bright Grey */
+    --base05: #cabcb1; /* White */
+    --base06: #d7c8bc; /* Brighter White */
+    --base07: #e4d4c8; /* Bright White */
+    --base08: #d35c5c; /* Red */
+    --base09: #ca7f32; /* Orange */
+    --base0A: #e0ac16; /* Yellow */
+    --base0B: #b7ba53; /* Green */
+    --base0C: #6eb958; /* Cyan */
+    --base0D: #88a4d3; /* Blue */
+    --base0E: #bb90e2; /* Purple */
+    --base0F: #b49368; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

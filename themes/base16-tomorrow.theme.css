@@ -1,0 +1,57 @@
+/**
+* @name Tomorrow
+* @author Chris Kempson (http://chriskempson.com)
+**/
+
+:root {
+    --base00: #ffffff; /* Black */
+    --base01: #e0e0e0; /* Bright Black */
+    --base02: #d6d6d6; /* Grey */
+    --base03: #8e908c; /* Brighter Grey */
+    --base04: #969896; /* Bright Grey */
+    --base05: #4d4d4c; /* White */
+    --base06: #282a2e; /* Brighter White */
+    --base07: #1d1f21; /* Bright White */
+    --base08: #c82829; /* Red */
+    --base09: #f5871f; /* Orange */
+    --base0A: #eab700; /* Yellow */
+    --base0B: #718c00; /* Green */
+    --base0C: #3e999f; /* Cyan */
+    --base0D: #4271ae; /* Blue */
+    --base0E: #8959a8; /* Purple */
+    --base0F: #a3685a; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

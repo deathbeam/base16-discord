@@ -1,0 +1,57 @@
+/**
+* @name darkmoss
+* @author Gabriel Avanzi (https://github.com/avanzzzi)
+**/
+
+:root {
+    --base00: #171e1f; /* Black */
+    --base01: #252c2d; /* Bright Black */
+    --base02: #373c3d; /* Grey */
+    --base03: #555e5f; /* Brighter Grey */
+    --base04: #818f80; /* Bright Grey */
+    --base05: #c7c7a5; /* White */
+    --base06: #e3e3c8; /* Brighter White */
+    --base07: #e1eaef; /* Bright White */
+    --base08: #ff4658; /* Red */
+    --base09: #e6db74; /* Orange */
+    --base0A: #fdb11f; /* Yellow */
+    --base0B: #499180; /* Green */
+    --base0C: #66d9ef; /* Cyan */
+    --base0D: #498091; /* Blue */
+    --base0E: #9bc0c8; /* Purple */
+    --base0F: #d27b53; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

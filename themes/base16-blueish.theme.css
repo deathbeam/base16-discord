@@ -1,0 +1,57 @@
+/**
+* @name Blueish
+* @author Ben Mayoras
+**/
+
+:root {
+    --base00: #182430; /* Black */
+    --base01: #243c54; /* Bright Black */
+    --base02: #46290a; /* Grey */
+    --base03: #616d78; /* Brighter Grey */
+    --base04: #74afe7; /* Bright Grey */
+    --base05: #c8e1f8; /* White */
+    --base06: #ddeaf6; /* Brighter White */
+    --base07: #8f98a0; /* Bright White */
+    --base08: #4ce587; /* Red */
+    --base09: #f6a85c; /* Orange */
+    --base0A: #82aaff; /* Yellow */
+    --base0B: #c3e88d; /* Green */
+    --base0C: #5fd1ff; /* Cyan */
+    --base0D: #82aaff; /* Blue */
+    --base0E: #ff84dd; /* Purple */
+    --base0F: #bbd2e8; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

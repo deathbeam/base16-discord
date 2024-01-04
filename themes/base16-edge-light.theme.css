@@ -1,0 +1,57 @@
+/**
+* @name Edge Light
+* @author cjayross (https://github.com/cjayross)
+**/
+
+:root {
+    --base00: #fafafa; /* Black */
+    --base01: #7c9f4b; /* Bright Black */
+    --base02: #d69822; /* Grey */
+    --base03: #5e646f; /* Brighter Grey */
+    --base04: #6587bf; /* Bright Grey */
+    --base05: #5e646f; /* White */
+    --base06: #b870ce; /* Brighter White */
+    --base07: #5e646f; /* Bright White */
+    --base08: #db7070; /* Red */
+    --base09: #db7070; /* Orange */
+    --base0A: #d69822; /* Yellow */
+    --base0B: #7c9f4b; /* Green */
+    --base0C: #509c93; /* Cyan */
+    --base0D: #6587bf; /* Blue */
+    --base0E: #b870ce; /* Purple */
+    --base0F: #509c93; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

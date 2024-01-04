@@ -1,0 +1,57 @@
+/**
+* @name Github
+* @author Defman21
+**/
+
+:root {
+    --base00: #ffffff; /* Black */
+    --base01: #f5f5f5; /* Bright Black */
+    --base02: #c8c8fa; /* Grey */
+    --base03: #969896; /* Brighter Grey */
+    --base04: #e8e8e8; /* Bright Grey */
+    --base05: #333333; /* White */
+    --base06: #ffffff; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #ed6a43; /* Red */
+    --base09: #0086b3; /* Orange */
+    --base0A: #795da3; /* Yellow */
+    --base0B: #183691; /* Green */
+    --base0C: #183691; /* Cyan */
+    --base0D: #795da3; /* Blue */
+    --base0E: #a71d5d; /* Purple */
+    --base0F: #333333; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,57 @@
+/**
+* @name summercamp
+* @author zoe firi (zoefiri.github.io)
+**/
+
+:root {
+    --base00: #1c1810; /* Black */
+    --base01: #2a261c; /* Bright Black */
+    --base02: #3a3527; /* Grey */
+    --base03: #504b38; /* Brighter Grey */
+    --base04: #5f5b45; /* Bright Grey */
+    --base05: #736e55; /* White */
+    --base06: #bab696; /* Brighter White */
+    --base07: #f8f5de; /* Bright White */
+    --base08: #e35142; /* Red */
+    --base09: #fba11b; /* Orange */
+    --base0A: #f2ff27; /* Yellow */
+    --base0B: #5ceb5a; /* Green */
+    --base0C: #5aebbc; /* Cyan */
+    --base0D: #489bf0; /* Blue */
+    --base0E: #ff8080; /* Purple */
+    --base0F: #f69be7; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

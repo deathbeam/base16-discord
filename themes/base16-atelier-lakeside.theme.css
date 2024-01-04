@@ -1,0 +1,57 @@
+/**
+* @name Atelier Lakeside
+* @author Bram de Haan (http://atelierbramdehaan.nl)
+**/
+
+:root {
+    --base00: #161b1d; /* Black */
+    --base01: #1f292e; /* Bright Black */
+    --base02: #516d7b; /* Grey */
+    --base03: #5a7b8c; /* Brighter Grey */
+    --base04: #7195a8; /* Bright Grey */
+    --base05: #7ea2b4; /* White */
+    --base06: #c1e4f6; /* Brighter White */
+    --base07: #ebf8ff; /* Bright White */
+    --base08: #d22d72; /* Red */
+    --base09: #935c25; /* Orange */
+    --base0A: #8a8a0f; /* Yellow */
+    --base0B: #568c3b; /* Green */
+    --base0C: #2d8f6f; /* Cyan */
+    --base0D: #257fad; /* Blue */
+    --base0E: #6b6bb8; /* Purple */
+    --base0F: #b72dd2; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

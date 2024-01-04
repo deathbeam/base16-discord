@@ -1,0 +1,57 @@
+/**
+* @name Purpledream
+* @author malet
+**/
+
+:root {
+    --base00: #100510; /* Black */
+    --base01: #302030; /* Bright Black */
+    --base02: #403040; /* Grey */
+    --base03: #605060; /* Brighter Grey */
+    --base04: #bbb0bb; /* Bright Grey */
+    --base05: #ddd0dd; /* White */
+    --base06: #eee0ee; /* Brighter White */
+    --base07: #fff0ff; /* Bright White */
+    --base08: #ff1d0d; /* Red */
+    --base09: #ccae14; /* Orange */
+    --base0A: #f000a0; /* Yellow */
+    --base0B: #14cc64; /* Green */
+    --base0C: #0075b0; /* Cyan */
+    --base0D: #00a0f0; /* Blue */
+    --base0E: #b000d0; /* Purple */
+    --base0F: #6a2a3c; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

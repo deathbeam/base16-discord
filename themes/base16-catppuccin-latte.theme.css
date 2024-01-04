@@ -1,0 +1,57 @@
+/**
+* @name Catppuccin Latte
+* @author https://github.com/catppuccin/catppuccin
+**/
+
+:root {
+    --base00: #eff1f5; /* Black */
+    --base01: #e6e9ef; /* Bright Black */
+    --base02: #ccd0da; /* Grey */
+    --base03: #bcc0cc; /* Brighter Grey */
+    --base04: #acb0be; /* Bright Grey */
+    --base05: #4c4f69; /* White */
+    --base06: #dc8a78; /* Brighter White */
+    --base07: #7287fd; /* Bright White */
+    --base08: #d20f39; /* Red */
+    --base09: #fe640b; /* Orange */
+    --base0A: #df8e1d; /* Yellow */
+    --base0B: #40a02b; /* Green */
+    --base0C: #179299; /* Cyan */
+    --base0D: #1e66f5; /* Blue */
+    --base0E: #8839ef; /* Purple */
+    --base0F: #dd7878; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

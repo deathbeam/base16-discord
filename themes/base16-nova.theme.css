@@ -1,0 +1,57 @@
+/**
+* @name Nova
+* @author George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+**/
+
+:root {
+    --base00: #3c4c55; /* Black */
+    --base01: #556873; /* Bright Black */
+    --base02: #6a7d89; /* Grey */
+    --base03: #899ba6; /* Brighter Grey */
+    --base04: #899ba6; /* Bright Grey */
+    --base05: #c5d4dd; /* White */
+    --base06: #899ba6; /* Brighter White */
+    --base07: #556873; /* Bright White */
+    --base08: #83afe5; /* Red */
+    --base09: #7fc1ca; /* Orange */
+    --base0A: #a8ce93; /* Yellow */
+    --base0B: #7fc1ca; /* Green */
+    --base0C: #f2c38f; /* Cyan */
+    --base0D: #83afe5; /* Blue */
+    --base0E: #9a93e1; /* Purple */
+    --base0F: #f2c38f; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

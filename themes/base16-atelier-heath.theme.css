@@ -1,0 +1,57 @@
+/**
+* @name Atelier Heath
+* @author Bram de Haan (http://atelierbramdehaan.nl)
+**/
+
+:root {
+    --base00: #1b181b; /* Black */
+    --base01: #292329; /* Bright Black */
+    --base02: #695d69; /* Grey */
+    --base03: #776977; /* Brighter Grey */
+    --base04: #9e8f9e; /* Bright Grey */
+    --base05: #ab9bab; /* White */
+    --base06: #d8cad8; /* Brighter White */
+    --base07: #f7f3f7; /* Bright White */
+    --base08: #ca402b; /* Red */
+    --base09: #a65926; /* Orange */
+    --base0A: #bb8a35; /* Yellow */
+    --base0B: #918b3b; /* Green */
+    --base0C: #159393; /* Cyan */
+    --base0D: #516aec; /* Blue */
+    --base0E: #7b59c0; /* Purple */
+    --base0F: #cc33cc; /* Magenta */
+
+    --radius-xs: 0px;
+    --radius-sm: var(--radius-xs);
+    --radius-md: var(--radius-xs);
+    --radius-lg: var(--radius-xs);
+    --radius-xl: var(--radius-xs);
+    --radius-xxl: var(--radius-xs);
+    --font-primary: 'Terminus', normal;
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: var(--font-primary);
+}
+
+.theme-dark {
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base02);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base02);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
