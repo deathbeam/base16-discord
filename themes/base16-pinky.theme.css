@@ -22,6 +22,9 @@
     --base0D: #00ffff; /* Blue */
     --base0E: #007fff; /* Purple */
     --base0F: #df206c; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
 }
 
 .theme-light, .theme-dark {
