@@ -1,0 +1,20 @@
+name: Update with the latest colorschemes
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch the repository code
+        uses: actions/checkout@v4
+
+      - name: Update schemes
+        uses: tinted-theming/base16-builder-go@latest
+
+      - name: Commit the changes, if any
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update with the latest colorschemes
