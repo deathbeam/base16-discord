@@ -33,12 +33,12 @@
     --background-modifier-selected: var(--base00);
     --text-normal: var(--base05);
     --text-secondary: var(--base00);
-    --text-muted: var(--base02);
+    --text-muted: var(--base03);
     --text-link: var(--base0C);
     --interactive-normal: var(--base05);
     --interactive-hover: var(--base0C);
     --interactive-active: var(--base0A);
-    --interactive-muted: var(--base02);
+    --interactive-muted: var(--base03);
     --header-primary: var(--base06);
     --header-secondary: var(--base03);
     --scrollbar-thin-track: transparent;
