@@ -1,0 +1,54 @@
+/**
+* @name base16 Embers Light
+* @author Jannik Siebert (https://github.com/janniks)
+* @version 1.0.0
+* @description base16 Embers Light theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #d1d6db; /* Black */
+    --base01: #aeb6be; /* Bright Black */
+    --base02: #909aa3; /* Grey */
+    --base03: #75808a; /* Brighter Grey */
+    --base04: #47505a; /* Bright Grey */
+    --base05: #323b43; /* White */
+    --base06: #20262c; /* Brighter White */
+    --base07: #0f1316; /* Bright White */
+    --base08: #576d82; /* Red */
+    --base09: #578282; /* Orange */
+    --base0A: #57826d; /* Yellow */
+    --base0B: #6d8257; /* Green */
+    --base0C: #826d57; /* Cyan */
+    --base0D: #82576d; /* Blue */
+    --base0E: #6d5782; /* Purple */
+    --base0F: #575782; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
