@@ -1,0 +1,54 @@
+/**
+* @name base16 Measured Light
+* @author Measured (https://measured.co)
+* @version 1.0.0
+* @description base16 Measured Light theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #fdf9f5; /* Black */
+    --base01: #f9f5f1; /* Bright Black */
+    --base02: #ffeada; /* Grey */
+    --base03: #5a5a5a; /* Brighter Grey */
+    --base04: #404040; /* Bright Grey */
+    --base05: #292929; /* White */
+    --base06: #181818; /* Brighter White */
+    --base07: #000000; /* Bright White */
+    --base08: #ac1f35; /* Red */
+    --base09: #ad5601; /* Orange */
+    --base0A: #645a00; /* Yellow */
+    --base0B: #0c680c; /* Green */
+    --base0C: #01716f; /* Cyan */
+    --base0D: #0158ad; /* Blue */
+    --base0E: #6645c2; /* Purple */
+    --base0F: #a81a66; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
