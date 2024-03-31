@@ -1,0 +1,54 @@
+/**
+* @name base16 Sparky
+* @author Leila Sother (https://github.com/mixcoac)
+* @version 1.0.0
+* @description base16 Sparky theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #072b31; /* Black */
+    --base01: #00313c; /* Bright Black */
+    --base02: #003c46; /* Grey */
+    --base03: #003b49; /* Brighter Grey */
+    --base04: #00778b; /* Bright Grey */
+    --base05: #f4f5f0; /* White */
+    --base06: #f5f5f1; /* Brighter White */
+    --base07: #ffffff; /* Bright White */
+    --base08: #ff585d; /* Red */
+    --base09: #ff8f1c; /* Orange */
+    --base0A: #fbdd40; /* Yellow */
+    --base0B: #78d64b; /* Green */
+    --base0C: #2dccd3; /* Cyan */
+    --base0D: #4698cb; /* Blue */
+    --base0E: #d59ed7; /* Purple */
+    --base0F: #9b704d; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
