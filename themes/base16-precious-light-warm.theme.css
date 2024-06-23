@@ -1,0 +1,54 @@
+/**
+* @name base16 Precious Light Warm
+* @author 4lex4 &lt;4lex49@zoho.com&gt;
+* @version 1.0.0
+* @description base16 Precious Light Warm theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #fff5e5; /* Black */
+    --base01: #ece4d6; /* Bright Black */
+    --base02: #d9d3c8; /* Grey */
+    --base03: #7f8080; /* Brighter Grey */
+    --base04: #5d6065; /* Bright Grey */
+    --base05: #4e5359; /* White */
+    --base06: #4e5359; /* Brighter White */
+    --base07: #4e5359; /* Bright White */
+    --base08: #b14745; /* Red */
+    --base09: #a25600; /* Orange */
+    --base0A: #876500; /* Yellow */
+    --base0B: #557300; /* Green */
+    --base0C: #0e7767; /* Cyan */
+    --base0D: #246da5; /* Blue */
+    --base0E: #7a50c6; /* Purple */
+    --base0F: #a83f92; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}

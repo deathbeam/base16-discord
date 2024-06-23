@@ -1,0 +1,54 @@
+/**
+* @name base16 Moonlight
+* @author Jeremy Swinarton (https://github.com/jswinarton)
+* @version 1.0.0
+* @description base16 Moonlight theme generated from https://github.com/tinted-theming/schemes
+**/
+
+:root {
+    --base00: #212337; /* Black */
+    --base01: #403c64; /* Bright Black */
+    --base02: #596399; /* Grey */
+    --base03: #748cd6; /* Brighter Grey */
+    --base04: #a1abe0; /* Bright Grey */
+    --base05: #a3ace1; /* White */
+    --base06: #b4a4f4; /* Brighter White */
+    --base07: #ef43fa; /* Bright White */
+    --base08: #ff5370; /* Red */
+    --base09: #f67f81; /* Orange */
+    --base0A: #ffc777; /* Yellow */
+    --base0B: #2df4c0; /* Green */
+    --base0C: #04d1f9; /* Cyan */
+    --base0D: #40ffff; /* Blue */
+    --base0E: #b994f1; /* Purple */
+    --base0F: #ecb2f0; /* Magenta */
+
+    --primary-630: var(--base00); /* Autocomplete background */
+    --primary-660: var(--base00); /* Search input background */
+}
+
+.theme-light, .theme-dark {
+    --search-popout-option-fade: none; /* Disable fade for search popout */
+    --bg-overlay-2: var(--base00); /* These 2 are needed for proper threads coloring */
+    --home-background: var(--base00);
+    --background-primary: var(--base00);
+    --background-secondary: var(--base01);
+    --background-secondary-alt: var(--base01);
+    --channeltextarea-background: var(--base01);
+    --background-tertiary: var(--base00);
+    --background-accent: var(--base0E);
+    --background-floating: var(--base01);
+    --background-modifier-selected: var(--base00);
+    --text-normal: var(--base05);
+    --text-secondary: var(--base00);
+    --text-muted: var(--base03);
+    --text-link: var(--base0C);
+    --interactive-normal: var(--base05);
+    --interactive-hover: var(--base0C);
+    --interactive-active: var(--base0A);
+    --interactive-muted: var(--base03);
+    --header-primary: var(--base06);
+    --header-secondary: var(--base03);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
+}
