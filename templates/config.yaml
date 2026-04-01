@@ -1,3 +1,2 @@
 default:
-  extension: .theme.css
-  output: themes
+  filename: "themes/{{ scheme-system }}-{{ scheme-slug }}.theme.css"
