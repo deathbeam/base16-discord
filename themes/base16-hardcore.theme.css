@@ -1,11 +1,14 @@
 /**
 * @name base16 Hardcore
 * @author Chris Caller
-* @version 2.0.0
+* @version 2.1.0
 * @description base16 Hardcore theme generated from https://github.com/tinted-theming/schemes
 **/
 
-:root {
+:root,
+body,
+.theme-dark:not(.custom-user-profile-theme),
+.theme-light:not(.custom-user-profile-theme) {
     --base00: #212121; /* Main background */
     --base01: #303030; /* Lighter background */
     --base02: #353535; /* Selection background */
@@ -30,19 +33,28 @@
     --radius-lg: 0px;
     --radius-xl: 0px;
     --radius-xxl: 0px;
-}
 
-body {
+    /* Compact spacing - 50% reduction for cleaner numbers */
+    --spacing-4: 2px;
+    --spacing-8: 4px;
+    --spacing-12: 6px;
+    --spacing-16: 8px;
+    --spacing-24: 12px;
+    --spacing-32: 16px;
+    --spacing-40: 20px;
+    --spacing-48: 24px;
+    --spacing-56: 28px;
+    --spacing-64: 32px;
+    --spacing-72: 36px;
+    --spacing-80: 40px;
+    --spacing-96: 48px;
+
     /* Monospace font */
     --font-primary: monospace;
     --font-display: monospace;
     --font-headline: monospace;
     --font-code: monospace;
-}
 
-body,
-.theme-dark:not(.custom-user-profile-theme),
-.theme-light:not(.custom-user-profile-theme) {
     /* App frame */
     --app-frame-background: var(--base01);
     --app-frame-border: var(--base02);
@@ -67,8 +79,6 @@ body,
     --background-mod-subtle: var(--base01);
     --background-modifier-selected: var(--base00);
     --background-primary: var(--base00);
-    --background-scrim: rgba(0, 0, 0, 0.7);
-    --background-scrim-lightbox: rgba(0, 0, 0, 0.9);
     --background-secondary: var(--base01);
     --background-secondary-alt: var(--base01);
     --background-surface-high: var(--base01);
@@ -200,9 +210,6 @@ body,
     --control-overlay-primary-text-hover: var(--base00);
 
     /* Controls - Overlay Secondary */
-    --control-overlay-secondary-background-active: rgba(0, 0, 0, 0.4);
-    --control-overlay-secondary-background-default: rgba(0, 0, 0, 0.5);
-    --control-overlay-secondary-background-hover: rgba(0, 0, 0, 0.6);
     --control-overlay-secondary-border-active: var(--base02);
     --control-overlay-secondary-border-default: var(--base02);
     --control-overlay-secondary-border-hover: var(--base02);
@@ -280,12 +287,12 @@ body,
     --interactive-muted: var(--base03);
     --interactive-normal: var(--base05);
     --interactive-text-active: var(--base05);
-    --interactive-text-default: var(--base04);
+    --interactive-text-default: var(--base05);
     --interactive-text-hover: var(--base05);
 
     /* Mentions */
     --mention-background: var(--base0D);
-    --mention-foreground: var(--base0D);
+    --mention-foreground: var(--base00);
 
     /* Messages */
     --message-background-hover: var(--base01);
@@ -294,7 +301,7 @@ body,
     --message-mentioned-background-default: var(--base0D);
     --message-mentioned-background-hover: var(--base0D);
     --message-reacted-background-default: var(--base0D);
-    --message-reacted-text-default: var(--base04);
+    --message-reacted-text-default: var(--base00);
 
     /* Modal */
     --modal-background: var(--base00);
@@ -328,8 +335,6 @@ body,
     --radio-thumb-background-active: var(--base07);
 
     /* Redesign buttons */
-    --redesign-button-overlay-alpha-background: rgba(0, 0, 0, 0.5);
-    --redesign-button-overlay-alpha-pressed-background: rgba(0, 0, 0, 0.7);
     --redesign-button-overlay-alpha-text: var(--base05);
     --redesign-button-secondary-background: var(--base02);
     --redesign-button-secondary-pressed-background: var(--base02);
@@ -364,8 +369,6 @@ body,
     --switch-border-hover: var(--base02);
     --switch-border-selected-default: var(--base02);
     --switch-border-selected-hover: var(--base02);
-    --switch-thumb-background-default: rgb(255, 255, 255);
-    --switch-thumb-background-selected-default: rgb(255, 255, 255);
 
     /* Text */
     --text-brand: var(--base0D);
