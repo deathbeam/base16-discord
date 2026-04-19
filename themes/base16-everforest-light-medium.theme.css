@@ -1,30 +1,30 @@
 /**
-* @name base16 Dracula
-* @author clach04 (https://github.com/clach04)
+* @name base16 Everforest Light (Medium)
+* @author Márcio Sobel (https://github.com/marciosobel)
 * @version 2.1.0
-* @description base16 Dracula theme generated from https://github.com/tinted-theming/schemes
+* @description base16 Everforest Light (Medium) theme generated from https://github.com/tinted-theming/schemes
 **/
 
 :root,
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #282a36; /* Main background */
-    --base01: #21222c; /* Lighter background */
-    --base02: #44475a; /* Selection background */
-    --base03: #6272a4; /* Comments, muted text */
-    --base04: #9ea8c7; /* Dark foreground */
-    --base05: #f8f8f2; /* Default foreground */
-    --base06: #f8f8f2; /* Light foreground */
-    --base07: #ffffff; /* Light background */
-    --base08: #ff5555; /* Red */
-    --base09: #ffb86c; /* Orange */
-    --base0A: #f1fa8c; /* Yellow */
-    --base0B: #50fa7b; /* Green */
-    --base0C: #8be9fd; /* Cyan */
-    --base0D: #bd93f9; /* Blue */
-    --base0E: #ff79c6; /* Purple */
-    --base0F: #993333; /* Magenta */
+    --base00: #fdf6e3; /* Main background */
+    --base01: #f4f0d9; /* Lighter background */
+    --base02: #e6e2cc; /* Selection background */
+    --base03: #939f91; /* Comments, muted text */
+    --base04: #829181; /* Dark foreground */
+    --base05: #5c6a72; /* Default foreground */
+    --base06: #475258; /* Light foreground */
+    --base07: #2d353b; /* Light background */
+    --base08: #f85552; /* Red */
+    --base09: #f57d26; /* Orange */
+    --base0A: #dfa000; /* Yellow */
+    --base0B: #8da101; /* Green */
+    --base0C: #35a77c; /* Cyan */
+    --base0D: #3a94c5; /* Blue */
+    --base0E: #df69ba; /* Purple */
+    --base0F: #829181; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;

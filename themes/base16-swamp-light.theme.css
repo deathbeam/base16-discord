@@ -1,30 +1,30 @@
 /**
-* @name base16 Dracula
-* @author clach04 (https://github.com/clach04)
+* @name base16 Swamp Light
+* @author Masroof Maindak (https://github.com/masroof-maindak)
 * @version 2.1.0
-* @description base16 Dracula theme generated from https://github.com/tinted-theming/schemes
+* @description base16 Swamp Light theme generated from https://github.com/tinted-theming/schemes
 **/
 
 :root,
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #282a36; /* Main background */
-    --base01: #21222c; /* Lighter background */
-    --base02: #44475a; /* Selection background */
-    --base03: #6272a4; /* Comments, muted text */
-    --base04: #9ea8c7; /* Dark foreground */
-    --base05: #f8f8f2; /* Default foreground */
-    --base06: #f8f8f2; /* Light foreground */
-    --base07: #ffffff; /* Light background */
-    --base08: #ff5555; /* Red */
-    --base09: #ffb86c; /* Orange */
-    --base0A: #f1fa8c; /* Yellow */
-    --base0B: #50fa7b; /* Green */
-    --base0C: #8be9fd; /* Cyan */
-    --base0D: #bd93f9; /* Blue */
-    --base0E: #ff79c6; /* Purple */
-    --base0F: #993333; /* Magenta */
+    --base00: #f1e3d1; /* Main background */
+    --base01: #ddcebc; /* Lighter background */
+    --base02: #c9b9a7; /* Selection background */
+    --base03: #b5a492; /* Comments, muted text */
+    --base04: #a0907d; /* Dark foreground */
+    --base05: #64513e; /* Default foreground */
+    --base06: #786653; /* Light foreground */
+    --base07: #8c7b68; /* Light background */
+    --base08: #d09700; /* Red */
+    --base09: #64513e; /* Orange */
+    --base0A: #993333; /* Yellow */
+    --base0B: #908d6a; /* Green */
+    --base0C: #d09700; /* Cyan */
+    --base0D: #bf7979; /* Blue */
+    --base0E: #9e5581; /* Purple */
+    --base0F: #75858c; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;
