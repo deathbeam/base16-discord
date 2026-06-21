@@ -9,22 +9,22 @@
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #161b22; /* Main background */
-    --base01: #30363d; /* Lighter background */
+    --base00: #0d1117; /* Main background */
+    --base01: #161b22; /* Lighter background */
     --base02: #484f58; /* Selection background */
     --base03: #6e7681; /* Comments, muted text */
     --base04: #8b949e; /* Dark foreground */
     --base05: #c9d1d9; /* Default foreground */
     --base06: #f0f6fc; /* Light foreground */
     --base07: #ffffff; /* Light background */
-    --base08: #f85149; /* Red */
-    --base09: #db6d28; /* Orange */
+    --base08: #ffa657; /* Red */
+    --base09: #79c0ff; /* Orange */
     --base0A: #bb8009; /* Yellow */
-    --base0B: #2ea043; /* Green */
-    --base0C: #2a9d9a; /* Cyan */
-    --base0D: #388bfd; /* Blue */
-    --base0E: #a371f7; /* Purple */
-    --base0F: #3d2f00; /* Magenta */
+    --base0B: #a5d6ff; /* Green */
+    --base0C: #7ee787; /* Cyan */
+    --base0D: #d2a8ff; /* Blue */
+    --base0E: #ff7b72; /* Purple */
+    --base0F: #ffa198; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;
