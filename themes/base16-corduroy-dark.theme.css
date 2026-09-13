@@ -1,30 +1,30 @@
 /**
-* @name base16 Apprentice
-* @author Romain Lafourcade (https://github.com/romainl)
+* @name base16 Corduroy Dark
+* @author taysatte (https://github.com/taysatte)
 * @version 2.1.0
-* @description base16 Apprentice theme generated from https://github.com/tinted-theming/schemes
+* @description base16 Corduroy Dark theme generated from https://github.com/tinted-theming/schemes
 **/
 
 :root,
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #262626; /* Main background */
-    --base01: #303030; /* Lighter background */
-    --base02: #3a3a3a; /* Selection background */
-    --base03: #444444; /* Comments, muted text */
-    --base04: #6c6c6c; /* Dark foreground */
-    --base05: #bcbcbc; /* Default foreground */
-    --base06: #dfdfdf; /* Light foreground */
-    --base07: #ffffff; /* Light background */
-    --base08: #af5f5f; /* Red */
-    --base09: #ff8700; /* Orange */
-    --base0A: #87875f; /* Yellow */
-    --base0B: #5f875f; /* Green */
-    --base0C: #5f8787; /* Cyan */
-    --base0D: #5f87af; /* Blue */
-    --base0E: #5f5f87; /* Purple */
-    --base0F: #af5f5f; /* Magenta */
+    --base00: #141016; /* Main background */
+    --base01: #1b151e; /* Lighter background */
+    --base02: #221a26; /* Selection background */
+    --base03: #7d7082; /* Comments, muted text */
+    --base04: #9a8d9e; /* Dark foreground */
+    --base05: #ddd8df; /* Default foreground */
+    --base06: #ddd8df; /* Light foreground */
+    --base07: #5a5160; /* Light background */
+    --base08: #e8758a; /* Red */
+    --base09: #f0a89b; /* Orange */
+    --base0A: #f0bd9c; /* Yellow */
+    --base0B: #55a0a0; /* Green */
+    --base0C: #f0a89b; /* Cyan */
+    --base0D: #dc92a3; /* Blue */
+    --base0E: #cf98c4; /* Purple */
+    --base0F: #9a8d9e; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;
