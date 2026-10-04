@@ -10,21 +10,21 @@ body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
     --base00: #ffffff; /* Main background */
-    --base01: #e7ecf0; /* Lighter background */
-    --base02: #acb6c0; /* Selection background */
-    --base03: #88929d; /* Comments, muted text */
-    --base04: #66707b; /* Dark foreground */
-    --base05: #343b43; /* Default foreground */
-    --base06: #20252c; /* Light foreground */
-    --base07: #0e1116; /* Light background */
-    --base08: #702c00; /* Red */
-    --base09: #023b95; /* Orange */
-    --base0A: #956400; /* Yellow */
-    --base0B: #032563; /* Green */
-    --base0C: #024c1a; /* Cyan */
-    --base0D: #622cbc; /* Blue */
-    --base0E: #a0111f; /* Purple */
-    --base0F: #6e011a; /* Magenta */
+    --base01: #f6f8fa; /* Lighter background */
+    --base02: #d1d9e0; /* Selection background */
+    --base03: #818b98; /* Comments, muted text */
+    --base04: #59636e; /* Dark foreground */
+    --base05: #454c54; /* Default foreground */
+    --base06: #25292e; /* Light foreground */
+    --base07: #010409; /* Light background */
+    --base08: #a0111f; /* Red */
+    --base09: #702c00; /* Orange */
+    --base0A: #603700; /* Yellow */
+    --base0B: #024c1a; /* Green */
+    --base0C: #1b7c83; /* Cyan */
+    --base0D: #0349b4; /* Blue */
+    --base0E: #622cbc; /* Purple */
+    --base0F: #86061d; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;

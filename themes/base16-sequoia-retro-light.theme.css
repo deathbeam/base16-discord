@@ -1,30 +1,30 @@
 /**
-* @name base16 Github Dark
-* @author Tinted Theming (https://github.com/tinted-theming)
+* @name base16 Sequoia Retro Light
+* @author Micheal Andreuzza (https://michaelandreuzza.com/)
 * @version 2.1.0
-* @description base16 Github Dark theme generated from https://github.com/tinted-theming/schemes
+* @description base16 Sequoia Retro Light theme generated from https://github.com/tinted-theming/schemes
 **/
 
 :root,
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #0d1117; /* Main background */
-    --base01: #151b23; /* Lighter background */
-    --base02: #2f3742; /* Selection background */
-    --base03: #656c76; /* Comments, muted text */
-    --base04: #9198a1; /* Dark foreground */
-    --base05: #d1d7e0; /* Default foreground */
-    --base06: #f0f6fc; /* Light foreground */
-    --base07: #ffffff; /* Light background */
-    --base08: #ff7b72; /* Red */
-    --base09: #ffa657; /* Orange */
-    --base0A: #d29922; /* Yellow */
-    --base0B: #3fb950; /* Green */
-    --base0C: #39c5cf; /* Cyan */
-    --base0D: #58a6ff; /* Blue */
-    --base0E: #be8fff; /* Purple */
-    --base0F: #ffa198; /* Magenta */
+    --base00: #edeef2; /* Main background */
+    --base01: #e2e3e8; /* Lighter background */
+    --base02: #e2e3e8; /* Selection background */
+    --base03: #565760; /* Comments, muted text */
+    --base04: #42434e; /* Dark foreground */
+    --base05: #282930; /* Default foreground */
+    --base06: #282930; /* Light foreground */
+    --base07: #0f1014; /* Light background */
+    --base08: #5f7982; /* Red */
+    --base09: #5f7982; /* Orange */
+    --base0A: #bf5238; /* Yellow */
+    --base0B: #4a704e; /* Green */
+    --base0C: #8a6539; /* Cyan */
+    --base0D: #456a82; /* Blue */
+    --base0E: #bf5238; /* Purple */
+    --base0F: #4a704e; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;

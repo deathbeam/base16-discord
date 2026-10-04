@@ -1,30 +1,30 @@
 /**
-* @name base16 Github Dark
-* @author Tinted Theming (https://github.com/tinted-theming)
+* @name base16 Serendipity Sunset
+* @author Micheal Andreuzza (https://michaelandreuzza.com/)
 * @version 2.1.0
-* @description base16 Github Dark theme generated from https://github.com/tinted-theming/schemes
+* @description base16 Serendipity Sunset theme generated from https://github.com/tinted-theming/schemes
 **/
 
 :root,
 body,
 .theme-dark:not(.custom-user-profile-theme),
 .theme-light:not(.custom-user-profile-theme) {
-    --base00: #0d1117; /* Main background */
-    --base01: #151b23; /* Lighter background */
-    --base02: #2f3742; /* Selection background */
-    --base03: #656c76; /* Comments, muted text */
-    --base04: #9198a1; /* Dark foreground */
-    --base05: #d1d7e0; /* Default foreground */
-    --base06: #f0f6fc; /* Light foreground */
-    --base07: #ffffff; /* Light background */
-    --base08: #ff7b72; /* Red */
-    --base09: #ffa657; /* Orange */
-    --base0A: #d29922; /* Yellow */
-    --base0B: #3fb950; /* Green */
-    --base0C: #39c5cf; /* Cyan */
-    --base0D: #58a6ff; /* Blue */
-    --base0E: #be8fff; /* Purple */
-    --base0F: #ffa198; /* Magenta */
+    --base00: #202231; /* Main background */
+    --base01: #272938; /* Lighter background */
+    --base02: #272938; /* Selection background */
+    --base03: #8d8f9e; /* Comments, muted text */
+    --base04: #6b6d7c; /* Dark foreground */
+    --base05: #dee0ef; /* Default foreground */
+    --base06: #dee0ef; /* Light foreground */
+    --base07: #202231; /* Light background */
+    --base08: #d1918f; /* Red */
+    --base09: #d1918f; /* Orange */
+    --base0A: #a392dc; /* Yellow */
+    --base0B: #709bbd; /* Green */
+    --base0C: #d6b4b4; /* Cyan */
+    --base0D: #a0b6e8; /* Blue */
+    --base0E: #a392dc; /* Purple */
+    --base0F: #709bbd; /* Magenta */
 
     /* Square borders */
     --radius-xs: 0px;
